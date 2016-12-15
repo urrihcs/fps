@@ -36,7 +36,7 @@ class MyThread extends Thread{
         t1.start();
         
         MyThread t2 = new MyThread();
-        t2.setName("thread tow");
+        t2.setName("thread two");
         t2.start();
     }
     
